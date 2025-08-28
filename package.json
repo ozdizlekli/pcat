@@ -1,0 +1,23 @@
+{
+  "name": "pcat",
+  "version": "1.0.0",
+  "description": "pcat photo app",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "keywords": [
+    "photo",
+    "app",
+    "camera"
+  ],
+  "author": "sıla özdizlekli",
+  "license": "ISC",
+  "devDependencies": {
+    "prettier": "3.6.2"
+  }
+}
