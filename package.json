@@ -4,7 +4,8 @@
   "description": "pcat photo app",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+  "start": "nodemon app.js"
   },
   "repository": {
     "type": "git",
@@ -18,6 +19,10 @@
   "author": "sıla özdizlekli",
   "license": "ISC",
   "devDependencies": {
+    "nodemon": "^3.1.10",
     "prettier": "3.6.2"
+  },
+  "dependencies": {
+    "express": "^5.1.0"
   }
 }
